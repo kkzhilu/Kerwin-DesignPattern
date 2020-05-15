@@ -2,7 +2,7 @@ package com.design.strategy.gof;
 
 /**
  * ******************************
- * author：      柯贤铭
+ * author：      Kerwin
  * createTime:   2020/5/15 17:52
  * description:  负责和具体的策略类交互
  *               使策略模式，使具体的算法和直接的客户调用分离，使算法可以独立于客户端进行独立变化
