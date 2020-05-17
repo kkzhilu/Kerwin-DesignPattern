@@ -2,7 +2,7 @@ package com.design.observer.headfirst;
 
 /**
  * ******************************
- * author：      柯贤铭
+ * author：      Kerwin
  * createTime:   2019/8/1 23:02
  * description:  主题 | 目标
  * version:      V1.0

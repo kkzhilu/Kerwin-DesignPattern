@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * ******************************
- * author：      柯贤铭
+ * author：      Kerwin
  * createTime:   2019/8/1 23:04
  * description:  具体目标，将有关状态存入具体观察者对象；
  *               当内部状态改变时，给所有登记过的观察者发出通知。

@@ -2,7 +2,7 @@ package com.design.observer.jdk;
 
 /**
  * ******************************
- * author：      柯贤铭
+ * author：      Kerwin
  * createTime:   2020/2/2 21:02
  * description:  App
  * version:      V1.0

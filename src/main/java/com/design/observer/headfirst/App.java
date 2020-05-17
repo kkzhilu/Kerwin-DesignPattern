@@ -2,7 +2,7 @@ package com.design.observer.headfirst;
 
 /**
  * ******************************
- * author：      柯贤铭
+ * author：      Kerwin
  * createTime:   2019/8/1 23:01
  * description:  观察者模式 App
  * version:      V1.0
@@ -12,7 +12,7 @@ public class App {
 
     /***
      * 推荐代码阅读顺序：
-     * @see Subject
+     * @see Subject        #观察者模式的核心所在
      * @see Observer
      * @see WeChatSubject
      * @see FansObserver

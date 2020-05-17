@@ -6,7 +6,7 @@ import java.util.Observer;
 
 /**
  * ******************************
- * author：      柯贤铭
+ * author：      Kerwin
  * createTime:   2020/2/2 21:04
  * description:  具体观察者 A
  * version:      V1.0

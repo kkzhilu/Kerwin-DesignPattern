@@ -2,7 +2,7 @@ package com.design.observer.headfirst;
 
 /**
  * ******************************
- * author：      柯贤铭
+ * author：      Kerwin
  * createTime:   2019/8/1 23:05
  * description:  具体观察者:实现抽象观察者角色所要求的更新接口，已是本身状态与主题状态相协调
  * version:      V1.0
