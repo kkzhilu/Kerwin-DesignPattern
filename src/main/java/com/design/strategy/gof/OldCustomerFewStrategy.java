@@ -10,6 +10,7 @@ package com.design.strategy.gof;
  */
 public class OldCustomerFewStrategy implements Strategy {
 
+    @Override
     public double getPrice(double originalCost) {
         System.out.println("打八五折！");
         return originalCost * 0.85;
