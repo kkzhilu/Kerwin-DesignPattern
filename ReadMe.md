@@ -41,13 +41,20 @@
 
 ## 观察者模式
 
-文章对应地址：
+文章对应地址：https://juejin.im/post/5ec2a1dde51d454ddf23697d
 
 ```java
-@see com.design.strategy
+@see com.design.observer
 ```
 
 
+## 观察者模式
+
+文章对应地址：https://juejin.im/post/5ec2a87c5188256e9b728e70
+
+```java
+@see com.design.decorator
+```
 
 
 
