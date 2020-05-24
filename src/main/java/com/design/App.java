@@ -16,10 +16,7 @@ public class App {
      * B. 如果JDK中已内部实现同样也会给出实例
      * C. 对于实践意义极高的设计模式，也会给出工作中的例子
      *
-     * 1. 策略模式
-     * 文章对应地址：https://juejin.im/post/5eb67fc46fb9a043830f597a
-     * @see com.design.strategy
-     *
+     * 设计模式对应索引请见：ReadMe.md
      *
      * 如何联系我：
      * 关注掘金用户：https://juejin.im/user/5c729b0b5188255cf64b2da6

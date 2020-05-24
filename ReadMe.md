@@ -57,6 +57,26 @@
 ```
 
 
+## 工厂模式
+
+文章对应地址：
+
+推荐按以下顺序阅读：
+```java
+@see com.design.factory.simplefactory
+@see com.design.factory.method
+@see com.design.factory.abstractFactory
+```
+
+
+## 单例模式
+
+文章对应地址：
+
+```java
+@see com.design.factory.singleton
+```
+
 
 ## 如何联系我
 
