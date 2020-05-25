@@ -59,7 +59,7 @@
 
 ## 工厂模式
 
-文章对应地址：
+文章对应地址：https://juejin.im/post/5ecbcf19e51d4578a475ea5e
 
 推荐按以下顺序阅读：
 ```java
@@ -71,7 +71,7 @@
 
 ## 单例模式
 
-文章对应地址：
+文章对应地址：https://juejin.im/post/5ecbcabc6fb9a047d070c779
 
 ```java
 @see com.design.factory.singleton
