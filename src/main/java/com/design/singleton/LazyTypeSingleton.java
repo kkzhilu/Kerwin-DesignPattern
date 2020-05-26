@@ -22,7 +22,8 @@ public class LazyTypeSingleton {
         System.out.println("**************************");
         System.out.println("APP - 懒汉型模式");
         if (null == intance) {
-            return new App();
+            intance = new App();
+            return intance;
         }
         return intance;
     }
@@ -41,7 +42,8 @@ public class LazyTypeSingleton {
         if (null == app) {
             synchronized (LazyTypeSingleton.class) {
                 if (null == app) {
-                    return new App();
+                    app = new App();
+                    return app;
                 }
             }
         }
