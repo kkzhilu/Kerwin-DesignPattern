@@ -29,7 +29,7 @@ public class Invoker {
     }
 
     public void execute() {
-        if (!commands.empty()) {
+        while (!commands.empty()) {
             Command command = commands.pop();
             command.execute();
         }

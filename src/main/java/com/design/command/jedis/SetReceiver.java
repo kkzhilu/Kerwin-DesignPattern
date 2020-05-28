@@ -13,9 +13,6 @@ import java.io.OutputStream;
  * ******************************
  */
 public class SetReceiver {
-
-    private final String SPILET = "\r\n";
-
     OutputStream write;
 
     InputStream read;
@@ -27,15 +24,14 @@ public class SetReceiver {
 
         byte[] bytes = new byte[0];
         try {
-            StringBuffer sb = new StringBuffer();
-            sb.append("*3").append("\r\n");
-            sb.append("$3").append("\r\n");
-            sb.append("SET").append("\r\n");
-            sb.append("$").append(key.getBytes().length).append("\r\n");
-            sb.append(key).append("\r\n");
-            sb.append("$").append(val.getBytes().length).append("\r\n");
-            sb.append(val).append("\r\n");
-            write.write(sb.toString().getBytes());
+            String sb = "*3" + SPILET +
+                    "$3" + SPILET +
+                    "SET" + SPILET +
+                    "$" + key.getBytes().length + SPILET +
+                    key + SPILET +
+                    "$" + val.getBytes().length + SPILET +
+                    val + SPILET;
+            write.write(sb.getBytes());
             bytes = new byte[1024];
             read.read(bytes);
             System.out.println("Result: " + new String(bytes));
@@ -48,4 +44,6 @@ public class SetReceiver {
         this.write = write;
         this.read = read;
     }
+
+    private final String SPILET = "\r\n";
 }

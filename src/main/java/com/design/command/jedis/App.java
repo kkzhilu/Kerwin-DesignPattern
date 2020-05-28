@@ -9,7 +9,7 @@ import java.net.Socket;
  * ******************************
  * author：      Kerwin
  * createTime:   2020/5/25 15:57
- * description:
+ * description:  App测试类
  * version:      V1.0
  * ******************************
  */
@@ -29,14 +29,18 @@ public class App {
 
         // 测试get命令
         invoker.addCommand(new GetCommand(getReceiver, "key"));
-        invoker.execute();
 
         // 测试set命令
         invoker.addCommand(new SetCommand(setReceiver, "key xixixi"));
-        invoker.execute();
 
         // 测试get命令
         invoker.addCommand(new GetCommand(getReceiver, "key"));
+
+        // 测试get命令
+        invoker.addCommand(new GetCommand(getReceiver, "key"));
+
+        // 测试撤销上一个命令 -> 输出四次则测试失败，三次则成功
+        invoker.undoCommand();
         invoker.execute();
     }
 }

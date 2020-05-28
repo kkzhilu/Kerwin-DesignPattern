@@ -21,16 +21,14 @@ public class GetReceiver {
     public void doCommand (String arg) {
         String[] strings = arg.split(" ");
         String key = strings[0];
-
-        byte[] bytes = new byte[0];
+        byte[] bytes;
         try {
-            StringBuffer sb = new StringBuffer();
-            sb.append("*2").append("\r\n");
-            sb.append("$3").append("\r\n");
-            sb.append("GET").append("\r\n");
-            sb.append("$").append(key.getBytes().length).append("\r\n");
-            sb.append(key).append("\r\n");
-            write.write(sb.toString().getBytes());
+            String sb = "*2" + SPILT +
+                    "$3" + SPILT +
+                    "GET" + SPILT +
+                    "$" + key.getBytes().length + SPILT +
+                    key + SPILT;
+            write.write(sb.getBytes());
             bytes = new byte[1024];
             read.read(bytes);
             System.out.println("Result: " + new String(bytes));
@@ -43,4 +41,6 @@ public class GetReceiver {
         this.write = write;
         this.read = read;
     }
+
+    final String SPILT = "\r\n";
 }
