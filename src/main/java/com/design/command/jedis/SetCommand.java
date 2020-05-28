@@ -23,20 +23,4 @@ public class SetCommand implements Command {
         this.receiver = receiver;
         this.arg = arg;
     }
-
-    public SetReceiver getReceiver() {
-        return receiver;
-    }
-
-    public void setReceiver(SetReceiver receiver) {
-        this.receiver = receiver;
-    }
-
-    public String getArg() {
-        return arg;
-    }
-
-    public void setArg(String arg) {
-        this.arg = arg;
-    }
 }

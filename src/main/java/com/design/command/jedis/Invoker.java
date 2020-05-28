@@ -12,7 +12,7 @@ import java.util.Stack;
  */
 public class Invoker {
 
-    private Stack<Command> commands;
+    private final Stack<Command> commands;
 
     public Invoker() {
         commands = new Stack<>();
