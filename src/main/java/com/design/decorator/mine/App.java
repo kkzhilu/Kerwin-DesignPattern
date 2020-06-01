@@ -21,6 +21,12 @@ public class App {
      * 在不修改service代码的情况下，为serviceImpl增加clean的功能
      *
      * 即以ServiceImpl为核心，为其装饰CleanImpl功能, 增强handle的功能
+     *
+     * 推荐阅读顺序：
+     *
+     * @see Service
+     * @see ServiceImpl
+     * @see CleanImplDecorator
      */
     public static void main(String[] args){
         Map<String, Object> map = new HashMap<>();
