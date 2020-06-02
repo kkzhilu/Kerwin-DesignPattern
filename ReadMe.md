@@ -83,7 +83,20 @@
 文章对应地址：https://juejin.im/post/5ed5265851882543477c7abf
 
 ```java
-@see com.design.factory.command
+@see com.design.command
+```
+
+
+## 适配器与外观模式
+
+文章对应地址：https://juejin.im/post/5ed688c051882543413c1168
+
+```java
+// 适配器模式
+@see com.design.decorator
+
+// 外观模式
+@see com.design.facade
 ```
 
 
