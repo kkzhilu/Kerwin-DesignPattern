@@ -78,6 +78,15 @@
 ```
 
 
+## 命令模式
+
+文章对应地址：https://juejin.im/post/5ed5265851882543477c7abf
+
+```java
+@see com.design.factory.command
+```
+
+
 ## 如何联系我
 
 关注掘金用户：https://juejin.im/user/5c729b0b5188255cf64b2da6
