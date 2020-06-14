@@ -12,6 +12,7 @@ public class App {
 
     /***
      * 推荐代码阅读顺序：
+     *
      * @see Subject        #观察者模式的核心所在
      * @see Observer
      * @see WeChatSubject

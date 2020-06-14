@@ -25,6 +25,7 @@ public class App {
      * 适配器模式
      *
      * 推荐阅读顺序：
+     *
      * @see Duck
      * @see Turkey
      * @see WildTurkey

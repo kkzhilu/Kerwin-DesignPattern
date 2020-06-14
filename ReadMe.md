@@ -99,6 +99,7 @@
 @see com.design.facade
 ```
 
+
 ## 模板方法模式
 
 文章对应地址：https://juejin.im/post/5ede6ce151882543485772ea
@@ -106,6 +107,20 @@
 ```java
 @see com.design.template
 ```
+
+
+## 迭代器模式与组合模式
+
+文章对应地址：https://juejin.im/post/5ee64aade51d45789671b974
+
+```java
+// 迭代器模式
+@see com.design.iterator
+
+// 组合模式
+@see com.design.composite
+```
+
 
 
 ## 如何联系我

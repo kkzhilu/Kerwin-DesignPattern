@@ -12,6 +12,7 @@ public class App {
 
     /***
      * 推荐代码阅读顺序：
+     *
      * @see ObservableApp
      * @see ObserverA
      */

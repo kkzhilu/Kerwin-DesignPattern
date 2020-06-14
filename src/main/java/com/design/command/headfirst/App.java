@@ -14,6 +14,7 @@ public class App {
      * 命令模式
      *
      * 推荐阅读顺序：
+     *
      * @see Command
      * @see LightOnCommand | LightOffCommand
      * @see Light

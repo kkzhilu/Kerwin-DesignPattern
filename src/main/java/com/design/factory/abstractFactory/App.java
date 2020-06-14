@@ -16,6 +16,7 @@ public class App {
      * 抽象工厂模式 -> 产品族维度
      *
      * 推荐阅读顺序：
+     *
      * @see AbstractFactory
      * @see 抽象方法模式.png
      * @see IntelFactory | AbstractFactory

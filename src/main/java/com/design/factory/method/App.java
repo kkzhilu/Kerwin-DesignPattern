@@ -17,6 +17,7 @@ public class App {
      * 来达到将对象创建的国程封装的目的。
      *
      * 推荐代码阅读顺序：
+     *
      * @see Factory
      * @see IntelCpuFactory | AMDCpuFactory
      */
