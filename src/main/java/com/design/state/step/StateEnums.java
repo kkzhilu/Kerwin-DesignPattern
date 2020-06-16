@@ -1,9 +1,9 @@
-package com.design.state.work;
+package com.design.state.step;
 
 /**
  * ******************************
  * author：      Kerwin
- * createTime:   2019/7/26 12:59
+ * createTime:   2020/6/16 12:59
  * description:  状态枚举类
  * version:      V1.0
  * ******************************
