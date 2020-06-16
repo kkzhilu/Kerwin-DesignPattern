@@ -1,6 +1,4 @@
-package com.design.state.work;/**
- * Created by Enzo Cotter on 2019/7/26.
- */
+package com.design.state.work;
 
 /**
  * ******************************
