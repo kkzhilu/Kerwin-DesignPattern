@@ -11,7 +11,6 @@ package com.design.utils;
 public class CodeUtils {
 
     public static void spilt() {
-        System.out.println();
         System.out.println("------------------------");
         System.out.println();
     }
