@@ -1,5 +1,7 @@
 package com.design.proxy.headfirst;
 
+import com.design.utils.CodeUtils;
+
 /**
  * ******************************
  * author：      Kerwin
@@ -21,6 +23,9 @@ public class App {
     public static void main(String[] args) {
         PhoneInterface proxy = new PhoneServiceProxy(new PhoneServiceImpl());
         proxy.updatePhone(15186564812L);
+
+        CodeUtils.spilt();
+
         proxy.updatePhone(null);
     }
 }
