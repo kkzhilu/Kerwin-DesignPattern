@@ -18,7 +18,7 @@ public class App {
      *      如果方法是final的，代理无效
      *
      * 关键代码：
-     *     1.ProxyFactory 实现 MethodInterceptor 方法拦截器接口  同时实现其 newProxyInstance方法 -> 该方法内容比较固定
+     *     1.PhoneCglibProxy 实现 MethodInterceptor 方法拦截器接口  同时实现其 newProxyInstance方法 -> 该方法内容比较固定
      *     2.通过代理工厂构建, 创建对象, 使用即可
      *
      * Spring 3.2之后默认包含了cglib依赖

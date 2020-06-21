@@ -21,7 +21,7 @@ public class App {
      * @see PhoneServiceProxy
      */
     public static void main(String[] args) {
-        PhoneInterface proxy = new PhoneServiceProxy(new PhoneServiceImpl());
+        PhoneInterface proxy = new PhoneServiceProxy();
         proxy.updatePhone(15186564812L);
 
         CodeUtils.spilt();

@@ -13,10 +13,11 @@ import java.util.Date;
  */
 public class PhoneServiceProxy implements PhoneInterface {
 
+    /** 代理模式一般自行New对象, 反观装饰器模式则是传入对象 **/
     private PhoneInterface phoneInterface;
 
-    public PhoneServiceProxy(PhoneInterface phoneInterface) {
-        this.phoneInterface = phoneInterface;
+    public PhoneServiceProxy() {
+        this.phoneInterface = new PhoneServiceImpl();
     }
 
     @Override
