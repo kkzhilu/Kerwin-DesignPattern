@@ -122,6 +122,15 @@
 ```
 
 
+## 代理模式
+
+文章对应地址：https://juejin.im/post/5ef2b053f265da02e3401e5c
+
+```java
+// 代理模式
+@see com.design.proxy
+```
+
 
 ## 如何联系我
 
