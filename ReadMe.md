@@ -131,6 +131,30 @@
 @see com.design.proxy
 ```
 
+## 建造者模式
+
+文章对应地址：
+
+```java
+@see com.design.builder
+```
+
+## 责任链模式
+
+文章对应地址：
+
+```java
+@see com.design.chain
+```
+
+## 备忘录模式
+
+文章对应地址：
+
+```java
+@see com.design.memento
+```
+
 
 ## 如何联系我
 
