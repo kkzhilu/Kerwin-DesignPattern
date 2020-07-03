@@ -133,7 +133,7 @@
 
 ## 建造者模式
 
-文章对应地址：
+文章对应地址：https://juejin.im/post/5efe0653e51d4534a81a9121
 
 ```java
 @see com.design.builder
@@ -141,7 +141,7 @@
 
 ## 责任链模式
 
-文章对应地址：
+文章对应地址：https://juejin.im/post/5efe0653e51d4534a81a9121
 
 ```java
 @see com.design.chain
@@ -149,7 +149,7 @@
 
 ## 备忘录模式
 
-文章对应地址：
+文章对应地址：https://juejin.im/post/5efe0653e51d4534a81a9121
 
 ```java
 @see com.design.memento
